@@ -3,7 +3,7 @@ const resultado = document.getElementById("resultado");
 
 btn.addEventListener("click", eliminarFoto);
 
-// 🔥 fetch + async/await + DELETE
+// fetch + async/await + DELETE
 async function eliminarFoto() {
   try {
     console.clear();

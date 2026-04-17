@@ -11,7 +11,6 @@ function eliminarTodo() {
       console.log("✔ To-Do eliminado correctamente");
       console.log(response);
 
-      // 🔥 Mostrar en UI
       mensaje.innerHTML = `
         <div style="border:1px solid green; padding:10px; margin-top:10px;">
           <p><strong>✔ To-Do eliminado correctamente</strong></p>
